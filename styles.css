@@ -11,3 +11,54 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 28px;
     box-shadow: 7px 4px 14px 7px rgb(0 0 0 / 20%);
 }
+
+.info p {
+    color: rgb(40, 34, 60);
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+    /* letter-spacing: 15px;
+    word-spacing: 42px; */
+}
+
+.social {
+    background:chartreuse  ;
+    /* padding: 35px; */
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 25; */
+    border: 5px solid red;
+    margin: 0;
+    outline-color: coral;
+}
+
+.container{
+    max-width: 750px;
+    margin: auto;
+}
+
+a {
+ text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color:yellow;
+}
+
+a:visited{
+    color: orange;
+}
+
+
+
+
+
+
+
+

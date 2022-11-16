@@ -23,15 +23,15 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .social {
-    background:chartreuse  ;
+    /* background:chartreuse  ; */
     /* padding: 35px; */
     /* padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 20px;
     padding-top: 25; */
-    border: 5px solid red;
+    /* border: 5px solid red;
     margin: 0;
-    outline-color: coral;
+    outline-color: coral; */
 }
 
 .container{
@@ -55,7 +55,12 @@ a:visited{
     color: rgb(143, 26, 159);
 }
 
-
+.card{
+    padding: 15px 20px;
+    background-color: azure;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
 
 
 

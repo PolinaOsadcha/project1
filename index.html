@@ -4,16 +4,20 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
+
 <body>
+    
     <div class="container">
          <div class="info" >
             <img src="images (2).jpg" alt="моє фото" class="avatar">
 
+                <div class="info-text">
                 <h1>Поліна Осадча</h1>
                 <p>студентка</p>
                 <p>dd</p>
 
-                <h2>мої соціальні мережі</h2>
+                <h4>мої соціальні мережі</h4>
 
                 <a href="https://www.instagram.com/" target="_blank">
                        instagram  
@@ -22,28 +26,25 @@
                  <a href="https://www.youtube.com/" target="_blank">
                     youtube 
                  </a>
-            </div>
+        </div>   
+                 </div>
+     </div>
     <hr>
 <div class="social"> 
     <!-- <h1 width="300" color="red" size="5" align="left"> -->
        </li>
     </ul>
-    <div class="card">
+    <div class="card bg-yellow">
     <h2>мої хобі</h2>
-    <ol type="A">
+    <ol class="list">
         <li>велоспорт</li>
         <li>велоспорт</li>
         <li>велоспорт</li>
     </ol>
     </div>
-      <div class="card">
+      <div class="card bg-green">
     <h2>Досвід навчання</h2>
-    <table border="2">
-        <tr>
-            <th>name</th>
-            <th>position</th>
-            <th>term</th>
-        </tr>
+    <table class="table">
         <tr>
             <td>школа 95</td>  
             <td>учениця</td>
@@ -56,20 +57,32 @@
         </tr>
     </table>
       </div>
+
+      <div class="contact">
     <h2>Зворотній зв'язок</h2>
-    <form action="">
-        <label for="name">Ваше ім'я</label>
-        <input type="text" id="name" placeholder="введіть ім'я">
-        <br>
-        <label for="email">email</label>
-        <input type="email" id="email" placeholder="введіть email">
-        <br>
+    <form>
+      <div class="row">
+         <div class="form-group">
+           <label for="name">Ваше ім'я</label>
+           <input type="text" id="name" 
+        placeholder="введіть ім'я">
+         </div>
+
+         <div class="form-group">
+           <label for="email">email</label>
+           <input type="email" id="email" 
+        placeholder="введіть email">
+         </div>
+      </div>
+
+         <div class="form-group">
         <label for="text">Ваше повідомлення</label>
-        <br>
         <textarea name="text" id="text"></textarea>
-        <br>
-        <input type="submit" value="відправити">
+        </div>
+        <input type="submit" value="відправити" class="btn">
+        
     </form>
+      </div>
 </div>
     </body>
 </html>

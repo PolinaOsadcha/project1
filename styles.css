@@ -1,5 +1,5 @@
 body{
-    background-color: burlywood;
+    background-color: rgb(255, 255, 255);
 font-size: 16px;
 font-weight: normal;
 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -12,6 +12,18 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     box-shadow: 7px 4px 14px 7px rgb(0 0 0 / 20%);
 }
 
+.info{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block ;
+    }
+}
+
 .info p {
     color: rgb(40, 34, 60);
     font-style: italic;
@@ -20,6 +32,15 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: capitalize;
     /* letter-spacing: 15px;
     word-spacing: 42px; */
+    margin: 20px 10px;
+}
+
+.info-text {
+margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
 }
 
 .social {
@@ -57,12 +78,98 @@ a:visited{
 
 .card{
     padding: 15px 20px;
-    background-color: azure;
+    /* background-color: rgb(42, 157, 157); */
     margin-bottom: 20px;
     border-radius: 20px;
 }
 
+.bg-yellow {
+    background:#fff9dc;
+}
 
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.list li {
+    padding: 0 20px;
+    color: grey;
+    margin-bottom: 10px;
+     /* list-style: none; */
+}
+
+table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: gray;
+}
+
+/* .table tr:nth-child(even) {
+    background-color: red;
+} */
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: gray;
+}
+
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+     width: 50%;
+}
+
+.row > .form-group:first-child {
+    margin-right: 20px;
+}
+
+.btn {
+    background: black;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.bth:hover {
+    opacity: 0.5;
+}
 
 
 

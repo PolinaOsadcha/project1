@@ -45,11 +45,12 @@ margin-left: 40px;
 
 .social {
     /* background:chartreuse  ; */
-    /* padding: 35px; */
-    /* padding-left: 10px;
+    padding: 35px;
+    padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 20px;
-    padding-top: 25; */
+    padding-top: 25;
+    text-align: center;
     /* border: 5px solid red;
     margin: 0;
     outline-color: coral; */
